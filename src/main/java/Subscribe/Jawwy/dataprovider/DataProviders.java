@@ -81,18 +81,132 @@ public class DataProviders {
 		data[0][2] = Price;
 		data[0][3] = Currency;
 		return data;
-
-		
-//		for (int i = 0; i < 10; i++) {
-//			String latitude = Location.get(i).get("lat");
-//			String longitude = Location.get(i).get("long");
-//			Loc[i][0] = latitude;
-//			Loc[i][1] = longitude;
-//			System.out.println("+++++++++++++++++++" + latitude);
-//			System.out.println("+++++++++++++++++++" + longitude);
-//
-//		}
-//		return Loc;
 	}
+	
+	@DataProvider(name = "Djibouti")
 
+	public Object[][] Get_Djibouti_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(9).get("countryName");
+		String Subscription_Type = testDataInMap.get(9).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(9).get("Price");
+		String Currency = testDataInMap.get(9).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	@DataProvider(name = "Chad")
+
+	public Object[][] Get_Chad_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(10).get("countryName");
+		String Subscription_Type = testDataInMap.get(10).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(10).get("Price");
+		String Currency = testDataInMap.get(10).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
+	@DataProvider(name = "Lebanon")
+
+	public Object[][] Get_Lebanon_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(11).get("countryName");
+		String Subscription_Type = testDataInMap.get(11).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(11).get("Price");
+		String Currency = testDataInMap.get(11).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	@DataProvider(name = "Iraq")
+
+	public Object[][] Get_Iraq_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(2).get("countryName");
+		String Subscription_Type = testDataInMap.get(2).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(2).get("Price");
+		String Currency = testDataInMap.get(2).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
+	
+	@DataProvider(name = "Jordan")
+
+	public Object[][] Get_Jordan_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(3).get("countryName");
+		String Subscription_Type = testDataInMap.get(3).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(3).get("Price");
+		String Currency = testDataInMap.get(3).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
+	@DataProvider(name = "Morocco")
+
+	public Object[][] Get_Morocco_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(12).get("countryName");
+		String Subscription_Type = testDataInMap.get(12).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(12).get("Price");
+		String Currency = testDataInMap.get(12).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
+	
+	@DataProvider(name = "Oman")
+
+	public Object[][] Get_Oman_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(4).get("countryName");
+		String Subscription_Type = testDataInMap.get(4).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(4).get("Price");
+		String Currency = testDataInMap.get(4).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
 }

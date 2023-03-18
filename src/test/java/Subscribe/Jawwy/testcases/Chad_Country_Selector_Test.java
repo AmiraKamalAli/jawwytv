@@ -13,27 +13,27 @@ import Subscribe.Jawwy.utility.Log;
  * @author Amira
  *
  */
-public class UAE_Country_Selector_Test extends BaseClass {
+public class Chad_Country_Selector_Test extends BaseClass {
 
 	@Test(priority = 1)
 	public void Countryselector() throws Throwable {
 		Log.startTestCase("contry selector");
 		Log.info("click in country selector ");
-		country UAE = new country();
-		UAE.clickCountry();
+		country Egy = new country();
+		Egy.clickCountry();
 		Log.info("clcik in country selector is Sucess");
 		Log.endTestCase("contry selector");
 
 	}
 
 	@Test(priority = 2)
-	public void UAE() throws Throwable {
-		Log.startTestCase("UAE selection");
-		Log.info("click in UAE");
-		country UAE = new country();
-		UAE.clickUAE();
-		Log.info("click in UAE is Sucess");
-		Log.endTestCase("UAE selection");
+	public void Chad() throws Throwable {
+		Log.startTestCase("Chad selection");
+		Log.info("click in Chad");
+		country Chad = new country();
+		Chad.clickChad();
+		Log.info("click in Chad is Sucess");
+		Log.endTestCase("Chad selection");
 
 	}	
 }

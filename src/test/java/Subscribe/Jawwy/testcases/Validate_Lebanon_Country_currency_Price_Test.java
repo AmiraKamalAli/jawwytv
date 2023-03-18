@@ -13,28 +13,28 @@ import Subscribe.Jawwy.utility.Log;
  * @author Amira
  *
  */
-public class Validate_Algeria_Country_currency_Price_Test extends BaseClass {
+public class Validate_Lebanon_Country_currency_Price_Test extends BaseClass {
 
-		@Test(priority = 1, dataProvider = "Algeria", dataProviderClass = DataProviders.class)
+		@Test(priority = 1, dataProvider = "Lebanon", dataProviderClass = DataProviders.class)
 	public void Get_Country_currency_Package(String countryName, String Subscription_Type, String ExpectedPrice,
 			String ExpectedCurrency) throws Throwable {
 
 		Log.startTestCase("get currency and price");
 		AvalabilePackage LitePackage = new AvalabilePackage();
 		LitePackage.GetOtherPackagePrice();
-		Log.info("get currency and price is Success");
+		Log.info("get currency and price is Sucess");
 
 		Log.endTestCase("get currency and price");
 
 	}
-	@Test(priority = 2, dataProvider = "Algeria", dataProviderClass = DataProviders.class)
+	@Test(priority = 2, dataProvider = "Lebanon", dataProviderClass = DataProviders.class)
 	public void Validate_Country_Currency_Package(String countryName, String Subscription_Type, String ExpectedPrice,
 			String ExpectedCurrency) throws Throwable {
 
 		Log.startTestCase("get currency and price");
 		AvalabilePackage LitePackage = new AvalabilePackage();
 		LitePackage.validateOtherPriceAndCurrency(ExpectedPrice, ExpectedCurrency);
-		Log.info("Validate currency and price is Success");
+		Log.info("Validate currency and price is Sucess");
 		Log.endTestCase("Validate currency and price");
 
 	}
