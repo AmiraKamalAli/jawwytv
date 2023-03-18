@@ -26,6 +26,14 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			test.log(Status.PASS, "Pass Test case is: " + result.getName());
+			String imgPath = action.screenShot(BaseClass.getDriver(), result.getName());
+			try {
+				test.pass("ScreenShot is Attached", MediaEntityBuilder.createScreenCaptureFromPath(imgPath).build());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 		}
 	}
 

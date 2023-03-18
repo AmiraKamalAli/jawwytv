@@ -25,7 +25,7 @@ public class ExtentManager {
 		extent.attachReporter(htmlReporter);
 		
 		extent.setSystemInfo("HostName", "MyHost");
-		extent.setSystemInfo("ProjectName", "MyStoreProject");
+		extent.setSystemInfo("ProjectName", "subscribe.jawwy.tv");
 		extent.setSystemInfo("Tester", "Hitendra");
 		extent.setSystemInfo("OS", "Win10");
 		extent.setSystemInfo("Browser", "Chrome");

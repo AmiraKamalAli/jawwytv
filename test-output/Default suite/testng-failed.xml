@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test">
+      <class name="Subscribe.Jawwy.testcases.Djibouti_Country_Selector_Test">
         <methods>
+          <include name="Algeria"/>
           <include name="loadConfig"/>
-          <include name="Get_Country_currency_Package" invocation-numbers="0"/>
-          <include name="Validate_Country_Currency_Package" invocation-numbers="0"/>
           <include name="afterSuite"/>
+          <include name="Countryselector"/>
         </methods>
-      </class> <!-- Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test -->
+      </class> <!-- Subscribe.Jawwy.testcases.Djibouti_Country_Selector_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="24" total="52" passed="26">
+<testng-results skipped="0" failed="1" ignored="104" total="222" passed="117">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="39023" started-at="2023-03-18T19:54:52 EET" finished-at="2023-03-18T19:55:31 EET">
+  <suite name="Suite" duration-ms="106477" started-at="2023-03-19T01:36:56 EET" finished-at="2023-03-19T01:38:43 EET">
     <groups>
     </groups>
-    <test name="UAE" duration-ms="6753" started-at="2023-03-18T19:54:52 EET" finished-at="2023-03-18T19:54:59 EET">
+    <test name="UAE" duration-ms="8522" started-at="2023-03-19T01:36:56 EET" finished-at="2023-03-19T01:37:05 EET">
       <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
-        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@1943d71]" name="setup" duration-ms="3738" started-at="2023-03-18T19:54:52 EET" finished-at="2023-03-18T19:54:56 EET">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@1943d71]" name="setup" duration-ms="4645" started-at="2023-03-19T01:36:56 EET" finished-at="2023-03-19T01:37:01 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
       </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
       <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
-        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1553d26]" name="check_Lite_Package" duration-ms="460" started-at="2023-03-18T19:54:58 EET" finished-at="2023-03-18T19:54:58 EET">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1553d26]" name="check_Lite_Package" duration-ms="109" started-at="2023-03-19T01:37:03 EET" finished-at="2023-03-19T01:37:03 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_Lite_Package -->
-        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1553d26]" name="check_classic_Package" duration-ms="143" started-at="2023-03-18T19:54:58 EET" finished-at="2023-03-18T19:54:58 EET">
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1553d26]" name="check_classic_Package" duration-ms="89" started-at="2023-03-19T01:37:04 EET" finished-at="2023-03-19T01:37:04 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_classic_Package -->
-        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1553d26]" name="check_PREMIUM_Package" duration-ms="76" started-at="2023-03-18T19:54:58 EET" finished-at="2023-03-18T19:54:58 EET">
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1553d26]" name="check_PREMIUM_Package" duration-ms="83" started-at="2023-03-19T01:37:04 EET" finished-at="2023-03-19T01:37:04 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_PREMIUM_Package -->
       </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
       <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
-        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@6be70a]" name="close" duration-ms="104" started-at="2023-03-18T19:54:59 EET" finished-at="2023-03-18T19:54:59 EET">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@6be70a]" name="close" duration-ms="96" started-at="2023-03-19T01:37:05 EET" finished-at="2023-03-19T01:37:05 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
       <class name="Subscribe.Jawwy.testcases.Validate_UAE_Country_currency_Price_Test">
-        <test-method status="PASS" signature="Get_UAE_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_UAE_Country_currency_Price_Test@9a3d1d]" name="Get_UAE_Country_currency_Package" duration-ms="200" started-at="2023-03-18T19:54:59 EET" data-provider="UAE" finished-at="2023-03-18T19:54:59 EET">
+        <test-method status="PASS" signature="Get_UAE_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_UAE_Country_currency_Price_Test@9a3d1d]" name="Get_UAE_Country_currency_Package" duration-ms="135" started-at="2023-03-19T01:37:04 EET" data-provider="UAE" finished-at="2023-03-19T01:37:05 EET">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get_UAE_Country_currency_Package -->
-        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_UAE_Country_currency_Price_Test@9a3d1d]" name="Validate_Country_Currency_Package" duration-ms="30" started-at="2023-03-18T19:54:59 EET" data-provider="UAE" finished-at="2023-03-18T19:54:59 EET">
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_UAE_Country_currency_Price_Test@9a3d1d]" name="Validate_Country_Currency_Package" duration-ms="19" started-at="2023-03-19T01:37:05 EET" data-provider="UAE" finished-at="2023-03-19T01:37:05 EET">
           <params>
             <param index="0">
               <value>
@@ -87,59 +87,59 @@
         </test-method> <!-- Validate_Country_Currency_Package -->
       </class> <!-- Subscribe.Jawwy.testcases.Validate_UAE_Country_currency_Price_Test -->
       <class name="Subscribe.Jawwy.testcases.UAE_Country_Selector_Test">
-        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.UAE_Country_Selector_Test@80503]" name="Countryselector" duration-ms="235" started-at="2023-03-18T19:54:56 EET" finished-at="2023-03-18T19:54:56 EET">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.UAE_Country_Selector_Test@80503]" name="Countryselector" duration-ms="180" started-at="2023-03-19T01:37:01 EET" finished-at="2023-03-19T01:37:01 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Countryselector -->
-        <test-method status="PASS" signature="UAE()[pri:2, instance:Subscribe.Jawwy.testcases.UAE_Country_Selector_Test@80503]" name="UAE" duration-ms="1310" started-at="2023-03-18T19:54:56 EET" finished-at="2023-03-18T19:54:58 EET">
+        <test-method status="PASS" signature="UAE()[pri:2, instance:Subscribe.Jawwy.testcases.UAE_Country_Selector_Test@80503]" name="UAE" duration-ms="1241" started-at="2023-03-19T01:37:02 EET" finished-at="2023-03-19T01:37:03 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UAE -->
       </class> <!-- Subscribe.Jawwy.testcases.UAE_Country_Selector_Test -->
     </test> <!-- UAE -->
-    <test name="Egypt" duration-ms="5799" started-at="2023-03-18T19:54:59 EET" finished-at="2023-03-18T19:55:05 EET">
+    <test name="Egypt" duration-ms="7148" started-at="2023-03-19T01:37:05 EET" finished-at="2023-03-19T01:37:12 EET">
       <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
-        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@285225]" name="setup" duration-ms="3725" started-at="2023-03-18T19:54:59 EET" finished-at="2023-03-18T19:55:03 EET">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@285225]" name="setup" duration-ms="3604" started-at="2023-03-19T01:37:05 EET" finished-at="2023-03-19T01:37:09 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
       </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
       <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
-        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1820e51]" name="check_Lite_Package" duration-ms="93" started-at="2023-03-18T19:55:04 EET" finished-at="2023-03-18T19:55:05 EET">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1820e51]" name="check_Lite_Package" duration-ms="119" started-at="2023-03-19T01:37:11 EET" finished-at="2023-03-19T01:37:11 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_Lite_Package -->
-        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1820e51]" name="check_classic_Package" duration-ms="82" started-at="2023-03-18T19:55:05 EET" finished-at="2023-03-18T19:55:05 EET">
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1820e51]" name="check_classic_Package" duration-ms="82" started-at="2023-03-19T01:37:11 EET" finished-at="2023-03-19T01:37:11 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_classic_Package -->
-        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1820e51]" name="check_PREMIUM_Package" duration-ms="90" started-at="2023-03-18T19:55:05 EET" finished-at="2023-03-18T19:55:05 EET">
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1820e51]" name="check_PREMIUM_Package" duration-ms="70" started-at="2023-03-19T01:37:11 EET" finished-at="2023-03-19T01:37:11 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_PREMIUM_Package -->
       </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
       <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
-        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@43cd28]" name="close" duration-ms="124" started-at="2023-03-18T19:55:05 EET" finished-at="2023-03-18T19:55:05 EET">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@43cd28]" name="close" duration-ms="102" started-at="2023-03-19T01:37:12 EET" finished-at="2023-03-19T01:37:12 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
       <class name="Subscribe.Jawwy.testcases.Country_Selector_Test">
-        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Country_Selector_Test@113b13f]" name="Countryselector" duration-ms="170" started-at="2023-03-18T19:55:03 EET" finished-at="2023-03-18T19:55:03 EET">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Country_Selector_Test@113b13f]" name="Countryselector" duration-ms="154" started-at="2023-03-19T01:37:09 EET" finished-at="2023-03-19T01:37:09 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Countryselector -->
-        <test-method status="PASS" signature="Egypt()[pri:2, instance:Subscribe.Jawwy.testcases.Country_Selector_Test@113b13f]" name="Egypt" duration-ms="1157" started-at="2023-03-18T19:55:03 EET" finished-at="2023-03-18T19:55:04 EET">
+        <test-method status="PASS" signature="Egypt()[pri:2, instance:Subscribe.Jawwy.testcases.Country_Selector_Test@113b13f]" name="Egypt" duration-ms="1092" started-at="2023-03-19T01:37:09 EET" finished-at="2023-03-19T01:37:10 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Egypt -->
-        <test-method status="PASS" signature="UAE()[pri:3, instance:Subscribe.Jawwy.testcases.Country_Selector_Test@113b13f]" name="UAE" duration-ms="164" started-at="2023-03-18T19:55:04 EET" finished-at="2023-03-18T19:55:04 EET">
+        <test-method status="PASS" signature="UAE()[pri:3, instance:Subscribe.Jawwy.testcases.Country_Selector_Test@113b13f]" name="UAE" duration-ms="180" started-at="2023-03-19T01:37:11 EET" finished-at="2023-03-19T01:37:11 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UAE -->
       </class> <!-- Subscribe.Jawwy.testcases.Country_Selector_Test -->
       <class name="Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test">
-        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test@d8062c]" name="Get_Country_currency_Package" duration-ms="105" started-at="2023-03-18T19:55:05 EET" data-provider="Subscription" finished-at="2023-03-18T19:55:05 EET">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test@d8062c]" name="Get_Country_currency_Package" duration-ms="124" started-at="2023-03-19T01:37:12 EET" data-provider="Subscription" finished-at="2023-03-19T01:37:12 EET">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get_Country_currency_Package -->
-        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test@d8062c]" name="Validate_Country_Currency_Package" duration-ms="32" started-at="2023-03-18T19:55:05 EET" data-provider="Subscription" finished-at="2023-03-18T19:55:05 EET">
+        <test-method status="FAIL" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test@d8062c]" name="Validate_Country_Currency_Package" duration-ms="25" started-at="2023-03-19T01:37:12 EET" data-provider="Subscription" finished-at="2023-03-19T01:37:12 EET">
           <params>
             <param index="0">
               <value>
@@ -188,182 +188,18 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_Country_Currency_Package -->
-      </class> <!-- Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test -->
-    </test> <!-- Egypt -->
-    <test name="Algeria" duration-ms="26446" started-at="2023-03-18T19:55:05 EET" finished-at="2023-03-18T19:55:31 EET">
-      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:Subscribe.Jawwy.testcases.OpenURL_Test@10b40af]" name="loadConfig" is-config="true" duration-ms="113" started-at="2023-03-18T19:54:52 EET" finished-at="2023-03-18T19:54:52 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@10b40af]" name="setup" duration-ms="4163" started-at="2023-03-18T19:55:05 EET" finished-at="2023-03-18T19:55:09 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Subscribe.Jawwy.testcases.OpenURL_Test@10b40af]" name="afterSuite" is-config="true" duration-ms="334" started-at="2023-03-18T19:55:31 EET" finished-at="2023-03-18T19:55:32 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
-      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
-        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8afef]" name="check_Lite_Package" duration-ms="89" started-at="2023-03-18T19:55:11 EET" finished-at="2023-03-18T19:55:11 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_Lite_Package -->
-        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8afef]" name="check_classic_Package" duration-ms="106" started-at="2023-03-18T19:55:11 EET" finished-at="2023-03-18T19:55:11 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_classic_Package -->
-        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8afef]" name="check_PREMIUM_Package" duration-ms="76" started-at="2023-03-18T19:55:11 EET" finished-at="2023-03-18T19:55:11 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check_PREMIUM_Package -->
-      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
-      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
-        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@daef40]" name="close" duration-ms="87" started-at="2023-03-18T19:55:31 EET" finished-at="2023-03-18T19:55:31 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
-      <class name="Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test">
-        <test-method status="FAIL" signature="Get_UAE_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test@169c6ba]" name="Get_UAE_Country_currency_Package" duration-ms="20099" started-at="2023-03-18T19:55:11 EET" data-provider="Algeria" finished-at="2023-03-18T19:55:31 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Algeria]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="trial-cost"]"}
-  (Session info: chrome=111.0.5563.65)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AS-40', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_352-352'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:50836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ee0fcca2426aa401e6d42e7e95588be
-*** Element info: {Using=xpath, value=//div[@class="trial-cost"]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="trial-cost"]"}
-  (Session info: chrome=111.0.5563.65)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AS-40', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_352-352'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:50836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ee0fcca2426aa401e6d42e7e95588be
-*** Element info: {Using=xpath, value=//div[@class="trial-cost"]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.getText(Unknown Source)
-at Subscribe.Jawwy.pageobjects.AvalabilePackage.GetPackagePrice(AvalabilePackage.java:81)
-at Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test.Get_UAE_Country_currency_Package(Validate_Algeria_Country_currency_Price_Test.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Get_UAE_Country_currency_Package -->
-        <test-method status="FAIL" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test@169c6ba]" name="Validate_Country_Currency_Package" duration-ms="27" started-at="2023-03-18T19:55:31 EET" data-provider="Algeria" finished-at="2023-03-18T19:55:31 EET">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Algeria]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-passed expected [true] but found [false],
 passed expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-passed expected [true] but found [false],
 passed expected [true] but found [false]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at Subscribe.Jawwy.pageobjects.AvalabilePackage.validatePriceAndCurrency(AvalabilePackage.java:111)
-at Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test.Validate_Country_Currency_Package(Validate_Algeria_Country_currency_Price_Test.java:36)
+at Subscribe.Jawwy.pageobjects.AvalabilePackage.validatePriceAndCurrency(AvalabilePackage.java:141)
+at Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test.Validate_Country_Currency_Package(Validate_Country_currency_Price_Test.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -398,17 +234,1027 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Country_Currency_Package -->
-      </class> <!-- Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test -->
+    </test> <!-- Egypt -->
+    <test name="Algeria" duration-ms="8055" started-at="2023-03-19T01:37:12 EET" finished-at="2023-03-19T01:37:20 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@10b40af]" name="setup" duration-ms="3136" started-at="2023-03-19T01:37:12 EET" finished-at="2023-03-19T01:37:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8afef]" name="check_Lite_Package" duration-ms="100" started-at="2023-03-19T01:37:19 EET" finished-at="2023-03-19T01:37:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8afef]" name="check_classic_Package" duration-ms="86" started-at="2023-03-19T01:37:19 EET" finished-at="2023-03-19T01:37:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8afef]" name="check_PREMIUM_Package" duration-ms="85" started-at="2023-03-19T01:37:19 EET" finished-at="2023-03-19T01:37:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@daef40]" name="close" duration-ms="97" started-at="2023-03-19T01:37:20 EET" finished-at="2023-03-19T01:37:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Test_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Test_Country_currency_Price_Test@169c6ba]" name="Get_Country_currency_Package" duration-ms="193" started-at="2023-03-19T01:37:20 EET" data-provider="Algeria" finished-at="2023-03-19T01:37:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Test_Country_currency_Price_Test@169c6ba]" name="Validate_Country_Currency_Package" duration-ms="27" started-at="2023-03-19T01:37:20 EET" data-provider="Algeria" finished-at="2023-03-19T01:37:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Test_Country_currency_Price_Test -->
       <class name="Subscribe.Jawwy.testcases.Algeria_Country_Selector_Test">
-        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Algeria_Country_Selector_Test@123ab24]" name="Countryselector" duration-ms="156" started-at="2023-03-18T19:55:09 EET" finished-at="2023-03-18T19:55:09 EET">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Algeria_Country_Selector_Test@123ab24]" name="Countryselector" duration-ms="157" started-at="2023-03-19T01:37:15 EET" finished-at="2023-03-19T01:37:16 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Countryselector -->
-        <test-method status="PASS" signature="Algeria()[pri:2, instance:Subscribe.Jawwy.testcases.Algeria_Country_Selector_Test@123ab24]" name="Algeria" duration-ms="1251" started-at="2023-03-18T19:55:09 EET" finished-at="2023-03-18T19:55:11 EET">
+        <test-method status="PASS" signature="Algeria()[pri:2, instance:Subscribe.Jawwy.testcases.Algeria_Country_Selector_Test@123ab24]" name="Algeria" duration-ms="2726" started-at="2023-03-19T01:37:16 EET" finished-at="2023-03-19T01:37:19 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Algeria -->
       </class> <!-- Subscribe.Jawwy.testcases.Algeria_Country_Selector_Test -->
     </test> <!-- Algeria -->
+    <test name="Djibouti" duration-ms="7923" started-at="2023-03-19T01:37:20 EET" finished-at="2023-03-19T01:37:28 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@1ec78b9]" name="setup" duration-ms="3550" started-at="2023-03-19T01:37:20 EET" finished-at="2023-03-19T01:37:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@38d7a3]" name="check_Lite_Package" duration-ms="88" started-at="2023-03-19T01:37:27 EET" finished-at="2023-03-19T01:37:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@38d7a3]" name="check_classic_Package" duration-ms="72" started-at="2023-03-19T01:37:27 EET" finished-at="2023-03-19T01:37:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@38d7a3]" name="check_PREMIUM_Package" duration-ms="77" started-at="2023-03-19T01:37:27 EET" finished-at="2023-03-19T01:37:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@1440df3]" name="close" duration-ms="107" started-at="2023-03-19T01:37:28 EET" finished-at="2023-03-19T01:37:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Djibouti_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Djibouti_Country_Selector_Test@3869f4]" name="Countryselector" duration-ms="160" started-at="2023-03-19T01:37:24 EET" finished-at="2023-03-19T01:37:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Algeria()[pri:2, instance:Subscribe.Jawwy.testcases.Djibouti_Country_Selector_Test@3869f4]" name="Algeria" duration-ms="2206" started-at="2023-03-19T01:37:24 EET" finished-at="2023-03-19T01:37:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Algeria -->
+      </class> <!-- Subscribe.Jawwy.testcases.Djibouti_Country_Selector_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Djibouti_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Djibouti_Country_currency_Price_Test@1f99a05]" name="Get_Country_currency_Package" duration-ms="210" started-at="2023-03-19T01:37:27 EET" data-provider="Djibouti" finished-at="2023-03-19T01:37:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Djibouti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Djibouti_Country_currency_Price_Test@1f99a05]" name="Validate_Country_Currency_Package" duration-ms="32" started-at="2023-03-19T01:37:28 EET" data-provider="Djibouti" finished-at="2023-03-19T01:37:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Djibouti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Djibouti_Country_currency_Price_Test -->
+    </test> <!-- Djibouti -->
+    <test name="Chad" duration-ms="8115" started-at="2023-03-19T01:37:28 EET" finished-at="2023-03-19T01:37:36 EET">
+      <class name="Subscribe.Jawwy.testcases.Validate_Chad_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Chad_Country_currency_Price_Test@1758f2a]" name="Get_Country_currency_Package" duration-ms="269" started-at="2023-03-19T01:37:36 EET" data-provider="Chad" finished-at="2023-03-19T01:37:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Chad_Country_currency_Price_Test@1758f2a]" name="Validate_Country_Currency_Package" duration-ms="23" started-at="2023-03-19T01:37:36 EET" data-provider="Chad" finished-at="2023-03-19T01:37:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Chad_Country_currency_Price_Test -->
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@12fc6eb]" name="setup" duration-ms="3157" started-at="2023-03-19T01:37:28 EET" finished-at="2023-03-19T01:37:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@12679d6]" name="check_Lite_Package" duration-ms="97" started-at="2023-03-19T01:37:35 EET" finished-at="2023-03-19T01:37:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@12679d6]" name="check_classic_Package" duration-ms="133" started-at="2023-03-19T01:37:35 EET" finished-at="2023-03-19T01:37:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@12679d6]" name="check_PREMIUM_Package" duration-ms="80" started-at="2023-03-19T01:37:35 EET" finished-at="2023-03-19T01:37:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@720b71]" name="close" duration-ms="91" started-at="2023-03-19T01:37:36 EET" finished-at="2023-03-19T01:37:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Chad_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Chad_Country_Selector_Test@60b431]" name="Countryselector" duration-ms="165" started-at="2023-03-19T01:37:31 EET" finished-at="2023-03-19T01:37:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Chad()[pri:2, instance:Subscribe.Jawwy.testcases.Chad_Country_Selector_Test@60b431]" name="Chad" duration-ms="2706" started-at="2023-03-19T01:37:32 EET" finished-at="2023-03-19T01:37:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chad -->
+      </class> <!-- Subscribe.Jawwy.testcases.Chad_Country_Selector_Test -->
+    </test> <!-- Chad -->
+    <test name="Iraq" duration-ms="7857" started-at="2023-03-19T01:37:36 EET" finished-at="2023-03-19T01:37:44 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@d1af89]" name="setup" duration-ms="3146" started-at="2023-03-19T01:37:36 EET" finished-at="2023-03-19T01:37:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1374a5e]" name="check_Lite_Package" duration-ms="110" started-at="2023-03-19T01:37:43 EET" finished-at="2023-03-19T01:37:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1374a5e]" name="check_classic_Package" duration-ms="84" started-at="2023-03-19T01:37:43 EET" finished-at="2023-03-19T01:37:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1374a5e]" name="check_PREMIUM_Package" duration-ms="81" started-at="2023-03-19T01:37:43 EET" finished-at="2023-03-19T01:37:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@1b7a79b]" name="close" duration-ms="96" started-at="2023-03-19T01:37:44 EET" finished-at="2023-03-19T01:37:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Iraq_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Iraq_Country_Selector_Test@646db9]" name="Countryselector" duration-ms="164" started-at="2023-03-19T01:37:40 EET" finished-at="2023-03-19T01:37:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Iraq()[pri:2, instance:Subscribe.Jawwy.testcases.Iraq_Country_Selector_Test@646db9]" name="Iraq" duration-ms="2672" started-at="2023-03-19T01:37:40 EET" finished-at="2023-03-19T01:37:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Iraq -->
+      </class> <!-- Subscribe.Jawwy.testcases.Iraq_Country_Selector_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Iraq_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_UAE_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Iraq_Country_currency_Price_Test@71e53b]" name="Get_UAE_Country_currency_Package" duration-ms="125" started-at="2023-03-19T01:37:44 EET" data-provider="Iraq" finished-at="2023-03-19T01:37:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iraq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[900.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_UAE_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Iraq_Country_currency_Price_Test@71e53b]" name="Validate_Country_Currency_Package" duration-ms="23" started-at="2023-03-19T01:37:44 EET" data-provider="Iraq" finished-at="2023-03-19T01:37:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iraq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[900.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Iraq_Country_currency_Price_Test -->
+    </test> <!-- Iraq -->
+    <test name="Jordan" duration-ms="7915" started-at="2023-03-19T01:37:44 EET" finished-at="2023-03-19T01:37:52 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@1bd930a]" name="setup" duration-ms="3166" started-at="2023-03-19T01:37:44 EET" finished-at="2023-03-19T01:37:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@f6106c]" name="check_Lite_Package" duration-ms="157" started-at="2023-03-19T01:37:51 EET" finished-at="2023-03-19T01:37:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@f6106c]" name="check_classic_Package" duration-ms="91" started-at="2023-03-19T01:37:51 EET" finished-at="2023-03-19T01:37:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@f6106c]" name="check_PREMIUM_Package" duration-ms="74" started-at="2023-03-19T01:37:51 EET" finished-at="2023-03-19T01:37:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@30d1e6]" name="close" duration-ms="91" started-at="2023-03-19T01:37:52 EET" finished-at="2023-03-19T01:37:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Jordan_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Jordan_Country_Selector_Test@1723e30]" name="Countryselector" duration-ms="173" started-at="2023-03-19T01:37:47 EET" finished-at="2023-03-19T01:37:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Jordan()[pri:2, instance:Subscribe.Jawwy.testcases.Jordan_Country_Selector_Test@1723e30]" name="Jordan" duration-ms="2490" started-at="2023-03-19T01:37:48 EET" finished-at="2023-03-19T01:37:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jordan -->
+      </class> <!-- Subscribe.Jawwy.testcases.Jordan_Country_Selector_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Jordan_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_UAE_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Jordan_Country_currency_Price_Test@13a3d88]" name="Get_UAE_Country_currency_Package" duration-ms="145" started-at="2023-03-19T01:37:51 EET" data-provider="Jordan" finished-at="2023-03-19T01:37:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jordan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[JOD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_UAE_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Jordan_Country_currency_Price_Test@13a3d88]" name="Validate_Country_Currency_Package" duration-ms="33" started-at="2023-03-19T01:37:52 EET" data-provider="Jordan" finished-at="2023-03-19T01:37:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jordan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[JOD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Jordan_Country_currency_Price_Test -->
+    </test> <!-- Jordan -->
+    <test name="Lebanon" duration-ms="8182" started-at="2023-03-19T01:37:52 EET" finished-at="2023-03-19T01:38:00 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@1371b2d]" name="setup" duration-ms="3214" started-at="2023-03-19T01:37:52 EET" finished-at="2023-03-19T01:37:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1eb8acf]" name="check_Lite_Package" duration-ms="131" started-at="2023-03-19T01:37:59 EET" finished-at="2023-03-19T01:37:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1eb8acf]" name="check_classic_Package" duration-ms="79" started-at="2023-03-19T01:37:59 EET" finished-at="2023-03-19T01:37:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1eb8acf]" name="check_PREMIUM_Package" duration-ms="83" started-at="2023-03-19T01:37:59 EET" finished-at="2023-03-19T01:37:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@3c468]" name="close" duration-ms="101" started-at="2023-03-19T01:38:00 EET" finished-at="2023-03-19T01:38:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Lebanon_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Lebanon_Country_currency_Price_Test@1c8530f]" name="Get_Country_currency_Package" duration-ms="248" started-at="2023-03-19T01:38:00 EET" data-provider="Lebanon" finished-at="2023-03-19T01:38:00 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lebanon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Lebanon_Country_currency_Price_Test@1c8530f]" name="Validate_Country_Currency_Package" duration-ms="26" started-at="2023-03-19T01:38:00 EET" data-provider="Lebanon" finished-at="2023-03-19T01:38:00 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lebanon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Lebanon_Country_currency_Price_Test -->
+      <class name="Subscribe.Jawwy.testcases.Lebanon_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Lebanon_Country_Selector_Test@3c6f6d]" name="Countryselector" duration-ms="179" started-at="2023-03-19T01:37:55 EET" finished-at="2023-03-19T01:37:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Lebanon()[pri:2, instance:Subscribe.Jawwy.testcases.Lebanon_Country_Selector_Test@3c6f6d]" name="Lebanon" duration-ms="2745" started-at="2023-03-19T01:37:56 EET" finished-at="2023-03-19T01:37:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lebanon -->
+      </class> <!-- Subscribe.Jawwy.testcases.Lebanon_Country_Selector_Test -->
+    </test> <!-- Lebanon -->
+    <test name="Morocco" duration-ms="8893" started-at="2023-03-19T01:38:00 EET" finished-at="2023-03-19T01:38:09 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@91771e]" name="setup" duration-ms="3923" started-at="2023-03-19T01:38:00 EET" finished-at="2023-03-19T01:38:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1e8284b]" name="check_Lite_Package" duration-ms="119" started-at="2023-03-19T01:38:08 EET" finished-at="2023-03-19T01:38:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1e8284b]" name="check_classic_Package" duration-ms="97" started-at="2023-03-19T01:38:08 EET" finished-at="2023-03-19T01:38:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@1e8284b]" name="check_PREMIUM_Package" duration-ms="102" started-at="2023-03-19T01:38:08 EET" finished-at="2023-03-19T01:38:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@74868d]" name="close" duration-ms="86" started-at="2023-03-19T01:38:09 EET" finished-at="2023-03-19T01:38:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Morocco_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Morocco_Country_Selector_Test@ac1102]" name="Countryselector" duration-ms="153" started-at="2023-03-19T01:38:04 EET" finished-at="2023-03-19T01:38:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Morocco()[pri:2, instance:Subscribe.Jawwy.testcases.Morocco_Country_Selector_Test@ac1102]" name="Morocco" duration-ms="2683" started-at="2023-03-19T01:38:05 EET" finished-at="2023-03-19T01:38:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Morocco -->
+      </class> <!-- Subscribe.Jawwy.testcases.Morocco_Country_Selector_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Morocco_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Morocco_Country_currency_Price_Test@16e2f39]" name="Get_Country_currency_Package" duration-ms="244" started-at="2023-03-19T01:38:08 EET" data-provider="Morocco" finished-at="2023-03-19T01:38:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Morocco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Morocco_Country_currency_Price_Test@16e2f39]" name="Validate_Country_Currency_Package" duration-ms="32" started-at="2023-03-19T01:38:09 EET" data-provider="Morocco" finished-at="2023-03-19T01:38:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Morocco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Morocco_Country_currency_Price_Test -->
+    </test> <!-- Morocco -->
+    <test name="Oman" duration-ms="8821" started-at="2023-03-19T01:38:09 EET" finished-at="2023-03-19T01:38:18 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@485a47]" name="setup" duration-ms="3551" started-at="2023-03-19T01:38:09 EET" finished-at="2023-03-19T01:38:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8211c]" name="check_Lite_Package" duration-ms="117" started-at="2023-03-19T01:38:17 EET" finished-at="2023-03-19T01:38:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8211c]" name="check_classic_Package" duration-ms="83" started-at="2023-03-19T01:38:17 EET" finished-at="2023-03-19T01:38:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@c8211c]" name="check_PREMIUM_Package" duration-ms="86" started-at="2023-03-19T01:38:17 EET" finished-at="2023-03-19T01:38:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@4a2ea6]" name="close" duration-ms="87" started-at="2023-03-19T01:38:18 EET" finished-at="2023-03-19T01:38:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Oman_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_UAE_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Oman_Country_currency_Price_Test@76c8cd]" name="Get_UAE_Country_currency_Package" duration-ms="106" started-at="2023-03-19T01:38:17 EET" data-provider="Oman" finished-at="2023-03-19T01:38:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_UAE_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Oman_Country_currency_Price_Test@76c8cd]" name="Validate_Country_Currency_Package" duration-ms="19" started-at="2023-03-19T01:38:18 EET" data-provider="Oman" finished-at="2023-03-19T01:38:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Oman_Country_currency_Price_Test -->
+      <class name="Subscribe.Jawwy.testcases.Oman_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Oman_Country_Selector_Test@1bbf683]" name="Countryselector" duration-ms="158" started-at="2023-03-19T01:38:13 EET" finished-at="2023-03-19T01:38:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Oman()[pri:2, instance:Subscribe.Jawwy.testcases.Oman_Country_Selector_Test@1bbf683]" name="Oman" duration-ms="3207" started-at="2023-03-19T01:38:13 EET" finished-at="2023-03-19T01:38:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oman -->
+      </class> <!-- Subscribe.Jawwy.testcases.Oman_Country_Selector_Test -->
+    </test> <!-- Oman -->
+    <test name="Tunisia" duration-ms="8461" started-at="2023-03-19T01:38:18 EET" finished-at="2023-03-19T01:38:26 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@b21112]" name="setup" duration-ms="3273" started-at="2023-03-19T01:38:18 EET" finished-at="2023-03-19T01:38:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Tunisia_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Tunisia_Country_currency_Price_Test@6a04ae]" name="Get_Country_currency_Package" duration-ms="140" started-at="2023-03-19T01:38:26 EET" data-provider="Tunisia" finished-at="2023-03-19T01:38:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tunisia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TND]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Tunisia_Country_currency_Price_Test@6a04ae]" name="Validate_Country_Currency_Package" duration-ms="25" started-at="2023-03-19T01:38:26 EET" data-provider="Tunisia" finished-at="2023-03-19T01:38:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tunisia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TND]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Tunisia_Country_currency_Price_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@178436e]" name="check_Lite_Package" duration-ms="119" started-at="2023-03-19T01:38:25 EET" finished-at="2023-03-19T01:38:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@178436e]" name="check_classic_Package" duration-ms="94" started-at="2023-03-19T01:38:25 EET" finished-at="2023-03-19T01:38:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@178436e]" name="check_PREMIUM_Package" duration-ms="119" started-at="2023-03-19T01:38:26 EET" finished-at="2023-03-19T01:38:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@ceb130]" name="close" duration-ms="101" started-at="2023-03-19T01:38:26 EET" finished-at="2023-03-19T01:38:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Tunisia_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Tunisia_Country_Selector_Test@da0940]" name="Countryselector" duration-ms="220" started-at="2023-03-19T01:38:21 EET" finished-at="2023-03-19T01:38:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Tunisia()[pri:2, instance:Subscribe.Jawwy.testcases.Tunisia_Country_Selector_Test@da0940]" name="Tunisia" duration-ms="2882" started-at="2023-03-19T01:38:22 EET" finished-at="2023-03-19T01:38:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tunisia -->
+      </class> <!-- Subscribe.Jawwy.testcases.Tunisia_Country_Selector_Test -->
+    </test> <!-- Tunisia -->
+    <test name="Yemen" duration-ms="8442" started-at="2023-03-19T01:38:26 EET" finished-at="2023-03-19T01:38:35 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@6007f4]" name="setup" duration-ms="3243" started-at="2023-03-19T01:38:26 EET" finished-at="2023-03-19T01:38:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@186a70]" name="check_Lite_Package" duration-ms="127" started-at="2023-03-19T01:38:33 EET" finished-at="2023-03-19T01:38:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@186a70]" name="check_classic_Package" duration-ms="356" started-at="2023-03-19T01:38:33 EET" finished-at="2023-03-19T01:38:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@186a70]" name="check_PREMIUM_Package" duration-ms="97" started-at="2023-03-19T01:38:34 EET" finished-at="2023-03-19T01:38:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@5997b1]" name="close" duration-ms="99" started-at="2023-03-19T01:38:35 EET" finished-at="2023-03-19T01:38:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Yemen_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Yemen_Country_Selector_Test@1a15ff]" name="Countryselector" duration-ms="155" started-at="2023-03-19T01:38:30 EET" finished-at="2023-03-19T01:38:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Yemen()[pri:2, instance:Subscribe.Jawwy.testcases.Yemen_Country_Selector_Test@1a15ff]" name="Yemen" duration-ms="2404" started-at="2023-03-19T01:38:30 EET" finished-at="2023-03-19T01:38:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Yemen -->
+      </class> <!-- Subscribe.Jawwy.testcases.Yemen_Country_Selector_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Yemen_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Yemen_Country_currency_Price_Test@6279ee]" name="Get_Country_currency_Package" duration-ms="218" started-at="2023-03-19T01:38:34 EET" data-provider="Yemen" finished-at="2023-03-19T01:38:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yemen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Yemen_Country_currency_Price_Test@6279ee]" name="Validate_Country_Currency_Package" duration-ms="34" started-at="2023-03-19T01:38:35 EET" data-provider="Yemen" finished-at="2023-03-19T01:38:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yemen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Yemen_Country_currency_Price_Test -->
+    </test> <!-- Yemen -->
+    <test name="Palestine" duration-ms="8072" started-at="2023-03-19T01:38:35 EET" finished-at="2023-03-19T01:38:43 EET">
+      <class name="Subscribe.Jawwy.testcases.OpenURL_Test">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:Subscribe.Jawwy.testcases.OpenURL_Test@a35978]" name="loadConfig" is-config="true" duration-ms="121" started-at="2023-03-19T01:36:56 EET" finished-at="2023-03-19T01:36:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="setup()[pri:1, instance:Subscribe.Jawwy.testcases.OpenURL_Test@a35978]" name="setup" duration-ms="3300" started-at="2023-03-19T01:38:35 EET" finished-at="2023-03-19T01:38:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Subscribe.Jawwy.testcases.OpenURL_Test@a35978]" name="afterSuite" is-config="true" duration-ms="238" started-at="2023-03-19T01:38:43 EET" finished-at="2023-03-19T01:38:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Subscribe.Jawwy.testcases.OpenURL_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Palestine_Country_currency_Price_Test">
+        <test-method status="PASS" signature="Get_UAE_Country_currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Palestine_Country_currency_Price_Test@19b92f3]" name="Get_UAE_Country_currency_Package" duration-ms="228" started-at="2023-03-19T01:38:42 EET" data-provider="Palestine" finished-at="2023-03-19T01:38:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Palestine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_UAE_Country_currency_Package -->
+        <test-method status="PASS" signature="Validate_Country_Currency_Package(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Palestine_Country_currency_Price_Test@19b92f3]" name="Validate_Country_Currency_Package" duration-ms="29" started-at="2023-03-19T01:38:43 EET" data-provider="Palestine" finished-at="2023-03-19T01:38:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Palestine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLASSIC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Country_Currency_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Palestine_Country_currency_Price_Test -->
+      <class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+        <test-method status="PASS" signature="check_Lite_Package()[pri:1, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@10a87b3]" name="check_Lite_Package" duration-ms="145" started-at="2023-03-19T01:38:41 EET" finished-at="2023-03-19T01:38:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Lite_Package -->
+        <test-method status="PASS" signature="check_classic_Package()[pri:2, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@10a87b3]" name="check_classic_Package" duration-ms="70" started-at="2023-03-19T01:38:42 EET" finished-at="2023-03-19T01:38:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_classic_Package -->
+        <test-method status="PASS" signature="check_PREMIUM_Package()[pri:3, instance:Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test@10a87b3]" name="check_PREMIUM_Package" duration-ms="104" started-at="2023-03-19T01:38:42 EET" finished-at="2023-03-19T01:38:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_PREMIUM_Package -->
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test -->
+      <class name="Subscribe.Jawwy.testcases.Palestine_Country_Selector_Test">
+        <test-method status="PASS" signature="Countryselector()[pri:1, instance:Subscribe.Jawwy.testcases.Palestine_Country_Selector_Test@f7c8c1]" name="Countryselector" duration-ms="163" started-at="2023-03-19T01:38:38 EET" finished-at="2023-03-19T01:38:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Countryselector -->
+        <test-method status="PASS" signature="Palestine()[pri:2, instance:Subscribe.Jawwy.testcases.Palestine_Country_Selector_Test@f7c8c1]" name="Palestine" duration-ms="2525" started-at="2023-03-19T01:38:39 EET" finished-at="2023-03-19T01:38:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Palestine -->
+      </class> <!-- Subscribe.Jawwy.testcases.Palestine_Country_Selector_Test -->
+      <class name="Subscribe.Jawwy.testcases.CloseURL_Test">
+        <test-method status="PASS" signature="close()[pri:1, instance:Subscribe.Jawwy.testcases.CloseURL_Test@1cd6521]" name="close" duration-ms="98" started-at="2023-03-19T01:38:43 EET" finished-at="2023-03-19T01:38:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Subscribe.Jawwy.testcases.CloseURL_Test -->
+    </test> <!-- Palestine -->
   </suite> <!-- Suite -->
 </testng-results>

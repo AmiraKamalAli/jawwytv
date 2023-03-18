@@ -37,28 +37,28 @@ public class AvalabilePackage extends BaseClass {
 
 	public void CheckLitePackage() {
 
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(), 3);
 		action.isDisplayed(getDriver(), lite);
 
 	}
 
 	public void CheckClassicPackage() {
 		// TODO Auto-generated method stub
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(), 3);
 		action.isDisplayed(getDriver(), classic);
 
 	}
 
 	public void CheckPrimiumPackage() {
 		// TODO Auto-generated method stub
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(), 3);
 		action.isDisplayed(getDriver(), premium);
 
 	}
 
 	public void GetEgyptPackagePrice() {
 
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(), 10);
 		action.isDisplayed(getDriver(), cost);
 		String e = cost.getText();
 
@@ -82,7 +82,7 @@ public class AvalabilePackage extends BaseClass {
 
 	public void GetPackagePrice() {
 
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(), 5);
 		action.isDisplayed(getDriver(), cost);
 		String e = cost.getText();
 
@@ -104,7 +104,7 @@ public class AvalabilePackage extends BaseClass {
 	}
 
 	public void GetOtherPackagePrice() {
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(),5);
 		action.isDisplayed(getDriver(), otherprice);
 		price = otherprice.getText();
 		System.out.println("price is******************** " +price);
@@ -129,7 +129,7 @@ public class AvalabilePackage extends BaseClass {
 
 	public void validatePriceAndCurrency(String expectedPrice, String expectedCurrency) {
 		// TODO Auto-generated method stub
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(), 5);
 		SoftAssert softAssert = new SoftAssert();
 		System.out.println("Price is " + price);
 		System.out.println("currency is " + currency);
@@ -143,7 +143,7 @@ public class AvalabilePackage extends BaseClass {
 
 	public void validateOtherPriceAndCurrency(String expectedPrice, String expectedCurrency) {
 		// TODO Auto-generated method stub
-		action.implicitWait(getDriver(), 2);
+		action.implicitWait(getDriver(), 5);
 		SoftAssert softAssert = new SoftAssert();
 		System.out.println("Price is " + price);
 		System.out.println("currency is " + currency);

@@ -100,4 +100,33 @@
 		</classes>
 	</test>
 
+<test thread-count="1" name="Tunisia">
+		<classes>
+			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
+			<class name="Subscribe.Jawwy.testcases.Tunisia_Country_Selector_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Tunisia_Country_currency_Price_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
+		</classes>
+	</test>
+
+	<test thread-count="1" name="Yemen">
+		<classes>
+			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
+			<class name="Subscribe.Jawwy.testcases.Yemen_Country_Selector_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Yemen_Country_currency_Price_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
+		</classes>
+	</test>
+
+	<test thread-count="1" name="Palestine">
+		<classes>
+			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
+			<class name="Subscribe.Jawwy.testcases.Palestine_Country_Selector_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Palestine_Country_currency_Price_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
+		</classes>
+	</test>
 </suite> <!-- Suite -->

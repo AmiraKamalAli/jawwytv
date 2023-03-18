@@ -209,4 +209,60 @@ public class DataProviders {
 		return data;
 	}
 	
+
+	@DataProvider(name = "Tunisia")
+
+	public Object[][] Get_Tunisia_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(5).get("countryName");
+		String Subscription_Type = testDataInMap.get(5).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(5).get("Price");
+		String Currency = testDataInMap.get(5).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
+	@DataProvider(name = "Yemen")
+
+	public Object[][] Get_Yemen_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(6).get("countryName");
+		String Subscription_Type = testDataInMap.get(6).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(6).get("Price");
+		String Currency = testDataInMap.get(6).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
+	
+	@DataProvider(name = "Palestine")
+
+	public Object[][] Get_Palestine_PriceAndcurencyPerCountry() throws IOException {
+		List<Map<String, String>> testDataInMap = CountriesDataUtility.getMapTestDataInMap2();
+		Object[][] data = new Object[1][4];
+
+		String countryName = testDataInMap.get(7).get("countryName");
+		String Subscription_Type = testDataInMap.get(7).get("SubscriptionPackageType");
+		String Price = testDataInMap.get(7).get("Price");
+		String Currency = testDataInMap.get(7).get("Currency");
+
+		data[0][0] = countryName;
+		data[0][1] = Subscription_Type;
+		data[0][2] = Price;
+		data[0][3] = Currency;
+		return data;
+	}
+	
 }

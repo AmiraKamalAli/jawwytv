@@ -41,6 +41,15 @@ public class country extends BaseClass {
 	@FindBy(xpath = "//span[@id='ma-contry-lable']")
 	private WebElement Morocco;
 
+	@FindBy(xpath = "//span[@id='tn-contry-lable']")
+	private WebElement Tunisia;
+
+	@FindBy(xpath = "//span[@id='ye-contry-lable']")
+	private WebElement Yemen;
+
+	@FindBy(xpath = "//span[@id='ps-contry-lable']")
+	private WebElement Palestine;
+
 	public country() {
 		PageFactory.initElements(getDriver(), this);
 	}
@@ -118,4 +127,21 @@ public class country extends BaseClass {
 
 	}
 
+	public void clickTunisia() {
+		// TODO Auto-generated method stub
+		action.implicitWait(getDriver(), 2);
+		action.click(getDriver(), Tunisia);
+	}
+
+	public void clickYemen() {
+		action.implicitWait(getDriver(), 2);
+		action.click(getDriver(), Yemen);
+
+	}
+
+	public void clickPalestine() {
+		action.implicitWait(getDriver(), 2);
+		action.click(getDriver(), Palestine);
+
+	}
 }
