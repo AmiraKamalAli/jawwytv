@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="Get_Country_currency_Package" invocation-numbers="0"/>
+          <include name="Validate_Country_Currency_Package" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

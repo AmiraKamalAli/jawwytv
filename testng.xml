@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="Subscribe.Jawwy.utility.ListenerClass"></listener>
+	</listeners>
+ <test thread-count="1" name="UAE">
+		<classes>
+			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
+			<class name="Subscribe.Jawwy.testcases.UAE_Country_Selector_Test">
+			</class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+			</class>
+			<class name="Subscribe.Jawwy.testcases.Validate_UAE_Country_currency_Price_Test">
+				</class>
+			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Egypt">
+		<classes>
+			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
+			<class name="Subscribe.Jawwy.testcases.Country_Selector_Test">
+				
+			</class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+
+				
+			</class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test">
+
+				
+			</class>
+			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="Algeria">
+		<classes>
+			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
+			<class name="Subscribe.Jawwy.testcases.Algeria_Country_Selector_Test">
+				
+			</class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test">
+
+				
+			</class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test">
+		
+			</class>
+			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

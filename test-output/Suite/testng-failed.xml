@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Subscribe.Jawwy.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Algeria(failed)">
+    <classes>
+      <class name="Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="Validate_Country_Currency_Package" invocation-numbers="0"/>
+          <include name="Get_UAE_Country_currency_Package" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Subscribe.Jawwy.testcases.Validate_Algeria_Country_currency_Price_Test -->
+    </classes>
+  </test> <!-- Algeria(failed) -->
+</suite> <!-- Failed suite [Suite] -->
