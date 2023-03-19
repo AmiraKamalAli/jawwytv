@@ -83,7 +83,7 @@
 					<testFailureIgnore> false </testFailureIgnore>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>testng_crossbrowser.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<!--	<appURL>${url}</appURL>-->

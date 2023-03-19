@@ -4,6 +4,15 @@
 	<listeners>
 		<listener class-name="Subscribe.Jawwy.utility.ListenerClass"></listener>
 	</listeners>
+	<test thread-count="1" name="Egypt">
+		<classes>
+			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
+			<!-- <class name="Subscribe.Jawwy.testcases.Country_Selector_Test"></class>-->
+			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test"></class>
+			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
+		</classes>
+	</test> <!-- Test -->
 	<test thread-count="1" name="UAE">
 		<classes>
 			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
@@ -13,15 +22,7 @@
 			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
 		</classes>
 	</test>
-	<test thread-count="1" name="Egypt">
-		<classes>
-			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
-			<class name="Subscribe.Jawwy.testcases.Country_Selector_Test"></class>
-			<class name="Subscribe.Jawwy.testcases.Validate_Avalaible_Packages_Test"></class>
-			<class name="Subscribe.Jawwy.testcases.Validate_Country_currency_Price_Test"></class>
-			<class name="Subscribe.Jawwy.testcases.CloseURL_Test" />
-		</classes>
-	</test> <!-- Test -->
+	
 	<test thread-count="1" name="Algeria">
 		<classes>
 			<class name="Subscribe.Jawwy.testcases.OpenURL_Test" />
