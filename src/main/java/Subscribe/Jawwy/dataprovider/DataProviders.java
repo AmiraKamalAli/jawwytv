@@ -32,17 +32,7 @@ public class DataProviders {
 		data[0][3] = Currency;
 		return data;
 
-		
-//		for (int i = 0; i < 10; i++) {
-//			String latitude = Location.get(i).get("lat");
-//			String longitude = Location.get(i).get("long");
-//			Loc[i][0] = latitude;
-//			Loc[i][1] = longitude;
-//			System.out.println("+++++++++++++++++++" + latitude);
-//			System.out.println("+++++++++++++++++++" + longitude);
-//
-//		}
-//		return Loc;
+
 	}
 	
 	@DataProvider(name = "UAE")
